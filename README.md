@@ -11,8 +11,7 @@ In particular, screwdriver systems are often used in the assembly industry (e.g.
 The screw tightening process is inherently dynamic, requiring frequent updates to defect catalogs and recalibration of screwing zones through human evaluation of tightening curves and quality estimates. Although defects are rare, detailed and automated inspection is essential to prevent faulty assemblies from progressing along the production line. 
 
 Currently, screwdriver systems provide a "Good or Fail" (GoF) status based on predefined normal screw historical catalogs, making it susceptible of generating false positives and false negatives.
-
-
+Screw Process Anomaly Visualization (SPAV) is a Python software module that was recently developed to address the specific challenge of performing a data-driven support to the calibration of screwing machines in manufacturing environments, which is a frequent issue in real-world industrial manufacturing settings. The primary goal of SPAV is to provide a suite of XAI visualization techniques (e.g., density plots) that enable non-ML expert users to easily identify critical anomalous points from predictive ML models and that arise during the screwing process.
 
 ## Example (codeocean executable run)
 You can execute and verify the full executable example in the following link:
