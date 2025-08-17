@@ -5,7 +5,7 @@ Following the Industrial Revolutions 4.0 and 5.0, the assembly industry faces mo
 
 ## Example
 
-[https://doi.org/10.24433/CO.1214166.v1, click here for codeocean example]
+https://doi.org/10.24433/CO.1214166.v1
 
 
 Marta Moreno Hugo Rocha André Pilastri Luís Miguel Matos Paulo Cortez
