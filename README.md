@@ -15,7 +15,7 @@ Currently, screwdriver systems provide a "Good or Fail" (GoF) status based on pr
 
 
 ## Example (codeocean executable run)
-
+You can execute and verify the full executable example in the following link:
 https://doi.org/10.24433/CO.1214166.v1
 
 
