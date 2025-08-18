@@ -1,6 +1,6 @@
 # SPAV  — Screw Process Anomaly Visualization
 
-Following the Industrial Revolutions 4.0 and 5.0, the assembly industry faces mounting pressure to reduce costs and boost efficiency using AI‑driven solutions. Modern screwdriver systems generate real‑time angle‑torque data that form tightening curves, which must be frequently recalibrated and inspected to prevent defective assemblies. We propose modeling normal screwing profiles with unsupervised AutoEncoders (AE) to detect deviations indicative of faults, complemented by intuitive visual analytics. Our Python module, Screw Process Anomaly Visualization (SPAV), offers functions for creating four types of plots—Global Error, Local Error, Detected Anomalies and Anomaly Density via KDE—to support operators in understanding and validating anomaly detection. SPAV integrates seamlessly with the Scientific Python ecosystem and is compatible with [H2O](https://docs.h2o.ai/h2o/latest-stable/h2o-py/docs/intro.html) and [Keras] (https://keras.io/) AE models.  
+Following the Industrial Revolutions 4.0 and 5.0, the assembly industry faces mounting pressure to reduce costs and boost efficiency using AI‑driven solutions. Modern screwdriver systems generate real‑time angle‑torque data that form tightening curves, which must be frequently recalibrated and inspected to prevent defective assemblies. We propose modeling normal screwing profiles with unsupervised AutoEncoders (AE) to detect deviations indicative of faults, complemented by intuitive visual analytics. Our Python module, Screw Process Anomaly Visualization (SPAV), offers functions for creating four types of plots—Global Error, Local Error, Detected Anomalies and Anomaly Density via KDE—to support operators in understanding and validating anomaly detection. SPAV integrates seamlessly with the Scientific Python ecosystem and is compatible with [H2O](https://docs.h2o.ai/h2o/latest-stable/h2o-py/docs/intro.html) and [Keras](https://keras.io/) AE models.  
 
 ## Purpose and features
 
@@ -20,5 +20,3 @@ $^{1}$ - ALGORITMI Centre, Minho University, Guimarães, Portugal\
 $^{2}$ - EPMQ, CCG ZGDV Institute, Guimarães, Portugal\
 $^{3}$ - Bosch Car Multimedia, Braga, Portugal\
 $^{\star}$ - correponding author (pcortez@dsi.uminho.pt)**
-
-This project is licensed under the terms of the MIT license.
