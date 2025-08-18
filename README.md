@@ -20,7 +20,7 @@ https://doi.org/10.24433/CO.1214166.v1
 
 
 ## Authors
-**Marta Moreno$^{1}$, Hugo Rocha$^{1}$, André Pilastri$^{2}$, Guilherme Moreira$^{3}$, Luís Miguel Matos$^{1}$, Paulo Cortez$^{\star}$$^{1,2}$\
+**Marta Moreno $^{1}$, Hugo Rocha $^{1}$ , André Pilastri $^{2}$, Guilherme Moreira $^{3}$, Luís Miguel Matos $^{1}$, Paulo Cortez $^{\star}$$^{1,2}$\
 $^{1}$ -- ALGORITMI Centre, Minho University, Guimarães, Portugal\
 $^{2}$ -- EPMQ, CCG ZGDV Institute, Guimarães, Portugal\
 $^{3}$ -- Bosch Car Multimedia, Braga, Portugal\
