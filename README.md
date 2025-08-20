@@ -31,6 +31,23 @@ from spav import auxiliary functions
 from spav.plot_functions import plot_reconstruction
 ```
 
+## Usage Guidelines
+
+Plot functions are available under the `plot_functions` component of the `spav` module, while `auxiliary_functions` contain functions to help users in the data preprocessing stage.
+
+Given a compatible AutoEncoder model and a preprocessed angle-torque pair dataset, users can create a global error plot that shows all screwing processes in the dataset colored by their (by default, normalized) anomaly scores:
+
+```python
+from spav.auxiliary functions import get_anomaly scores
+from spav.plot_functions import plot_global_error
+
+anomaly_df = get_anomaly_scores(model, screwing_df)
+plot_global_error(test_df, anomaly_df, y="torque")
+```
+
+<img width="1649" height="936" alt="{774101E3-6CEF-49AD-A95F-CD13BBE368C2}" src="https://github.com/user-attachments/assets/9a24affa-1f7d-43b0-be70-d29fd047612d" />
+
+
 ## Authors
 **Marta Moreno $^{1}$, Hugo Rocha $^{1}$ , André Pilastri $^{2}$, Guilherme Moreira $^{3}$, Luís Miguel Matos $^{1}$, Paulo Cortez $^{\star}$ $^{1,2}$\
 $^{1}$ - ALGORITMI Centre, Minho University, Guimarães, Portugal\
