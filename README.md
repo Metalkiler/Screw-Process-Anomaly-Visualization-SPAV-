@@ -4,15 +4,32 @@ Following the Industrial Revolutions 4.0 and 5.0, the assembly industry faces mo
 
 ## Purpose and features
 
-With the advent of the recent industrial revolutions (Industry 4.0 and 5.0), several assembly companies are under pressure to lower costs and increase operational efficiency through Artificial Intelligence (AI) tools.
-In particular, screwdriver systems are often used in the assembly industry (e.g. electronic components), generating hundreds of angle-torque real-time pair values for a single screw tightening process. The tightening curve can be subsequently analyzed for quality assessment purposes (e.g. anomaly detection). 
-The quality assessment step is especially important because the screw tightening process is inherently dynamic, thus requiring frequent updates to defect catalogs and recalibration of screwing zones through human evaluation of tightening curves and quality estimates. Although defects are rare, detailed and automated inspection is essential to prevent faulty assemblies from progressing along the production line.
+The quality assessment of tightening curves is especially important in anomaly detection because the screw tightening process is inherently dynamic, requiring frequent updates to defect catalogs and recalibration of screwing zones. Although defects are rare, detailed and automated inspection is essential to prevent faulty assemblies from progressing along the production line.
 
-Currently, screwdriver systems provide a "Good or Fail" (GoF) status based on predefined normal screw historical catalogs, making it susceptible of generating false positives and false negatives.
 Screw Process Anomaly Visualization (SPAV) is a Python software module that was recently developed to address the specific challenge of performing a data-driven support to the calibration of screwing machines in manufacturing environments, which is a frequent issue in real-world industrial manufacturing settings. The primary goal of SPAV is to provide a suite of XAI visualization techniques (e.g. density plots) that enable users of all levels of expertise to easily identify critical anomalous points that arise during the screwing process from existing predictive ML models.
+
+<img width="1749" height="792" alt="{FEFA4678-4B3D-4F2B-A8EB-B27E619898DE}" src="https://github.com/user-attachments/assets/d81c207e-2639-427d-bd1f-9b9c495c6814" />
 
 ## Example (codeocean executable run)
 An [executable example](https://doi.org/10.24433/CO.1214166.v1) is available on CodeOcean. We invite users to execute and verify the full executable example to better understand how to operate the module and the types of plots that can be obtained through its functions.
+
+## Installation Guide
+
+All files required for running SPAV are under the `spav` folder of this repository.
+
+First, we recommend installing the dependencies for this project, which are listed in a pip-friendly way in `requirements.txt`. From within the `spav` directory, execute in the command line:
+
+```cmd
+pip install requirements.txt
+```
+
+Following that, users can import `spav` from within their project directory containing the `spav` directory, either in full, per-module or per-function:
+
+```python
+import spav
+from spav import auxiliary functions
+from spav.plot_functions import plot_reconstruction
+```
 
 ## Authors
 **Marta Moreno $^{1}$, Hugo Rocha $^{1}$ , André Pilastri $^{2}$, Guilherme Moreira $^{3}$, Luís Miguel Matos $^{1}$, Paulo Cortez $^{\star}$ $^{1,2}$\
