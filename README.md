@@ -10,8 +10,8 @@ Screw Process Anomaly Visualization (SPAV) is a Python software module that was 
 
 <img width="1749" height="792" alt="{FEFA4678-4B3D-4F2B-A8EB-B27E619898DE}" src="https://github.com/user-attachments/assets/d81c207e-2639-427d-bd1f-9b9c495c6814" />
 
-## Example (codeocean executable run)
-An [executable example](https://doi.org/10.24433/CO.1214166.v1) is available on CodeOcean. We invite users to execute and verify the full executable example to better understand how to operate the module and the types of plots that can be obtained through its functions.
+## Reproducible Run
+An [executable example](https://doi.org/10.24433/CO.1214166.v1) is available on Code Ocean. We invite users to run and verify the reproducible example to better understand how to operate the module and which types of plots can be obtained through its functions, as well as how to customize them.
 
 ## Installation Guide
 
@@ -38,7 +38,7 @@ Plot functions are available under the `plot_functions` component of the `spav` 
 Given a compatible AutoEncoder model and a preprocessed angle-torque pair dataset, users can create a global error plot that shows all screwing processes in the dataset colored by their (by default, normalized) anomaly scores:
 
 ```python
-from spav.auxiliary functions import get_anomaly scores
+from spav.auxiliary_functions import get_anomaly scores
 from spav.plot_functions import plot_global_error
 
 anomaly_df = get_anomaly_scores(model, screwing_df)
